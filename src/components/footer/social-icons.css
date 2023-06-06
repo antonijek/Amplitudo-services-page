@@ -1,0 +1,17 @@
+.socials {
+  margin: 8vw;
+}
+
+.socials__icon {
+  width: 8%;
+  margin-right: 1vw;
+}
+
+@media only screen and (min-width: 601px) {
+  .socials {
+    margin: 2vw;
+  }
+  .socials__icon {
+    width: 4%;
+  }
+}

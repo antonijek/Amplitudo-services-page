@@ -1,0 +1,23 @@
+.contact__btn {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 0.5vw 3vw;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  font-size: 5vw;
+  font-family: "Gilroy-Bold", sans-serif;
+  margin: 2vw;
+  cursor: pointer;
+}
+.contact__btn:hover {
+  color: white;
+  background-color: rgb(93, 93, 136);
+  padding: 0.5vw 3.5vw;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+@media only screen and (min-width: 601px) {
+  .contact__btn {
+    font-size: 2vw;
+  }
+}

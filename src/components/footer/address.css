@@ -1,0 +1,43 @@
+.address {
+  width: 100%;
+  color: #ffffff;
+  position: absolute;
+  top: 70%;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 2.5vw;
+  opacity: 80%;
+}
+.address a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.address__street {
+  padding: 0 20%;
+  text-align: center;
+}
+.address__line {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+@media only screen and (min-width: 601px) {
+  .address {
+    top: 60%;
+    font-size: 1.5vw;
+  }
+  .address a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
+  .address__street {
+    padding: 0;
+  }
+  .address__line {
+    margin-left: 43%;
+    margin-right: 43%;
+  }
+}

@@ -1,0 +1,41 @@
+.card {
+  width: 100%;
+  padding: 2% 5%;
+  margin-right: 1%;
+  margin-left: 1%;
+  box-sizing: border-box;
+}
+.card__green-line {
+  width: 10%;
+  height: 2px;
+  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+}
+.card__title {
+  color: var(--primary-color);
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 10vw;
+  margin-bottom: 0;
+}
+.card__description {
+  font-family: "Gilroy-Regular", sans-serif;
+  color: var(--primary-color);
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-size: 3vw;
+}
+.card__img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 601px) {
+  .card {
+    box-shadow: 0px 0px 20px 3px #efeff0;
+  }
+  .card__title {
+    font-size: 3.5vw;
+  }
+  .card__description {
+    font-size: 1.1vw;
+  }
+}

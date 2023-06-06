@@ -1,0 +1,48 @@
+.contact {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: relative;
+  margin-top: 15%;
+  overflow: hidden;
+}
+.contact__title {
+  color: white;
+  font-family: "Butler-Light", sans-serif;
+  font-size: 7vw;
+  margin: 0;
+}
+.contact__description {
+  color: white;
+  opacity: 80%;
+  font-family: "Gilroy-Regular", sans-serif;
+  margin: 0 0 2vw 0;
+  font-size: 4vw;
+}
+.contact__img {
+  position: absolute;
+  width: 50%;
+  bottom: -25%;
+  left: 72%;
+}
+
+@media only screen and (min-width: 601px) {
+  .contact {
+    padding-top: 1%;
+    padding-bottom: 0;
+    overflow: visible;
+    margin-top: 10%;
+  }
+  .contact__title {
+    font-size: 4vw;
+  }
+  .contact__description {
+    font-size: 1.5vw;
+  }
+  .contact__img {
+    width: 31%;
+    bottom: -31%;
+    left: 65%;
+  }
+}

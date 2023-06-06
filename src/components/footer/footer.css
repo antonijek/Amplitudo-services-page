@@ -1,0 +1,72 @@
+.footer {
+  background-color: var(--primary-color);
+  text-align: center;
+}
+.footer__background-img {
+  width: 100%;
+  background-image: url("../../assets/images/Group 391 (1).svg");
+  aspect-ratio: 2/1;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__question {
+  color: #ffffff;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 2.5vw;
+  padding-top: 2%;
+  opacity: 90%;
+}
+.footer__contact {
+  color: #ffffff;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-weight: bold;
+  background-image: url("../../assets/images/Group 420.svg");
+  background-repeat: no-repeat;
+  background-position: 53% 150%;
+  background-size: 40%;
+  font-size: 5vw;
+}
+
+.footer__social-media {
+  display: none;
+  color: #ffffff;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 2.5vw;
+}
+
+.footer__rights {
+  color: #ffffff;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 2.5vw;
+  opacity: 50%;
+  padding: 2vw;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 601px) {
+  .footer__background-img {
+    width: 70%;
+  }
+  .footer__question {
+    font-size: 1.5vw;
+  }
+  .footer__contact {
+    background-position: 51% 150%;
+    background-size: 20%;
+    font-size: 2.6vw;
+  }
+
+  .footer__social-media {
+    display: block;
+    margin: 2vw;
+    font-size: 1.5vw;
+  }
+
+  .footer__rights {
+    font-size: 1.5vw;
+  }
+}

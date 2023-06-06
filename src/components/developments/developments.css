@@ -1,0 +1,29 @@
+.developments {
+  text-align: center;
+  margin-top: 15%;
+}
+.developments__title {
+  font-size: 8vw;
+  font-family: "Butler-Light", sans-serif;
+  color: var(--primary-color);
+}
+.boxes {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 601px) {
+  .developments {
+    margin-top: 8%;
+  }
+
+  .developments__title {
+    font-size: 4vw;
+  }
+  .boxes {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+}

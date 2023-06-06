@@ -1,0 +1,27 @@
+.box {
+  width: 80%;
+  margin: 0 auto 10vw auto;
+}
+
+.box__img {
+  width: 100%;
+}
+.box__text {
+  color: var(--primary-color);
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 5vw;
+}
+
+@media only screen and (min-width: 601px) {
+  .box {
+    box-shadow: 0px 0px 20px 3px #efeff0;
+    width: 100%;
+    padding: 2% 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .box__text {
+    font-size: 2vw;
+  }
+}

@@ -1,0 +1,28 @@
+.title {
+  text-align: center;
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+.title__head {
+  text-align: center;
+  font-family: "Butler-Regular", sans-serif;
+  color: var(--primary-color);
+  font-size: 10vw;
+  margin-bottom: 2vw;
+}
+
+@media only screen and (min-width: 601px) {
+  .title {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  .title__head {
+    font-size: 5.5vw;
+  }
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
